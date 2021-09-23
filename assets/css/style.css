@@ -1,0 +1,1268 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.Jeveline_FullPage{
+	max-width: 1400px;
+	margin: auto;
+	overflow: hidden;
+}
+.professional_health_care{
+	background-image: url(../images/jeveline.jpg);
+	height: 730px;
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+.header_display{
+	display: flex;
+	padding: 15px 40px;
+	margin: 0px 24px auto;
+	max-width: 1400px;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+}
+.header_href{
+	display: flex;
+	align-items: center;
+}
+.new_header_display{
+	display: none;
+	padding-top: 70px;
+	animation: navbar 0.5s;
+}
+@keyframes navbar {
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 0.3;
+	}
+	50%{
+		opacity: 0.6;
+	}
+	75%{
+		opacity: 0.8;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.new_header_href{
+	display: grid;
+	padding: 20px;
+	position: fixed;
+	margin-left: 24%;
+  background: #232323;
+  border-radius: 10px;
+  width: 73%;
+  text-align: center;
+}
+.jeveline_icons{
+	display: flex;
+	justify-content: space-around;
+}
+.scroll{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+  box-shadow: 0px 4px 13px 1px rgb(0 0 0 / 11%);
+
+}
+.Jeveline_image{
+	cursor: pointer;
+	height: 40px;
+}
+.home{
+	padding: 16px;
+	text-decoration: none;
+	font-size: 14px;
+  font-weight: bold;
+  padding-right: 50px;
+  color: black;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+#href_color{
+	color: white;
+}
+.home:hover{
+	color: #337ab7;
+}
+.about{
+	padding: 16px;
+	text-decoration: none;
+	font-size: 14px;
+  font-weight: bold;
+  color: black;
+  padding-right: 50px;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.about:hover{
+	color: #337ab7;
+}
+.department{
+	padding: 16px;
+	text-decoration: none;
+	font-size: 14px;
+  font-weight: bold;
+  padding-right: 50px;
+  color: black;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.department:hover{
+	color: #337ab7;
+}
+.faq{
+	padding: 16px;
+	text-decoration: none;
+	font-size: 14px;
+  font-weight: bold;
+  color: black;
+  padding-right: 50px;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.faq:hover{
+	color: #337ab7;
+}
+.contacts{
+	padding: 16px;
+	text-decoration: none;
+	font-size: 14px;
+	padding-right: 50px;
+  font-weight: bold;
+  color: black;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.contacts:hover{
+	color: #337ab7;
+}
+.pfhc_page{
+	padding: 88px;
+}
+.pfhc_heading{
+	font-size: 48px;
+	line-height: 52px;
+	margin: 0px;
+}
+.pfhc_para{
+	font-size: 14px;
+	font-family: inherit;
+}
+.pfhc_image{
+	margin: 40px auto;
+}
+.pfhc_box{
+	display: flex;
+  justify-content: center;
+  width: 92%;
+  align-items: center;
+  margin: auto;
+  margin-top: -110px;
+}
+.pfhc_box1{
+	background-color: #b9f7f9;
+	width: 35%;
+	padding: 50px;
+	border-radius: 16px;
+}.pfhc_box2{
+	width: 35%;
+	height: 300px;
+	padding: 70px;
+	background-color: #d4fdfe;
+	border-radius: 16px;
+}.pfhc_box3{
+	background-color: #b9f7f9;
+	width: 35%;
+	padding: 50px;
+	border-radius: 16px;
+}
+.box1_num{
+	font-size: 32px;
+  color: #337ab7;
+}
+.box1_heading{
+	font-weight: bold;
+  font-size: 20px;
+  color: #363636;
+  font-family: monospace;
+  margin: 22px auto;
+}
+.box2_heading{
+	font-weight: bold;
+  font-size: 20px;
+  color: #363636;
+  font-family: monospace;
+  margin: 22px auto;
+}
+.box3_heading{
+	font-weight: bold;
+  font-size:20px;
+  color: #363636;
+  font-family: monospace;
+  margin: 22px auto;
+}
+.box1_para{
+	font-size: 14px;
+  color: #484747;
+  line-height: 18px;
+  font-family: system-ui;
+}
+.box2_para{
+	font-size: 14px;
+  color: #484747;
+  line-height: 18px;
+  font-family: system-ui;
+}
+.box3_para1{
+	font-size: 14px;
+  color: #484747;
+  line-height: 18px;
+  font-family: system-ui;
+}
+.box3_para2{
+	font-size: 14px;
+  color: #484747;
+  line-height: 18px;
+  margin-top: 12px;
+  font-family: system-ui;
+}
+.box1_button{
+	width: 40%;
+  height: 48px;
+  border-radius: 40px;
+  border: none;
+  font-weight: bold;
+  margin-top: 48px;
+  cursor: pointer;
+  background-color: white;
+  color: #363636;
+  transition: 0.3s;
+}
+.box1_button:hover{
+	background-color: #b9f7f9;
+	border:2px solid #337ab7;
+}
+.box2_button{
+	width: 40%;
+  height: 48px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 48px;
+  background-color: white;
+  color: #363636;
+  transition: 0.3s;
+}
+.box2_button:hover{
+	background-color: #b9f7f9;
+	border:2px solid #337ab7;
+}
+.box3_button{
+	width: 40%;
+  height: 48px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 48px;
+  background-color: white;
+  color: #363636;
+  transition: 0.3s;
+}
+.box3_button:hover{
+	background-color: #b9f7f9;
+	border:2px solid #337ab7;
+}
+#facebook{
+	margin: 4px;
+  color: #363636;
+  padding-right: 40px;
+	cursor: pointer;
+	font-size: 18px;
+}
+#twitter{
+	margin: 4px;
+	color: #363636;
+	padding-right: 8px;
+	cursor: pointer;
+	font-size: 18px;
+}
+#facebook2{
+	margin: 4px;
+  color: white;
+  padding-right: 8px;
+	cursor: pointer;
+	font-size: 18px;
+}
+#twitter2{
+	margin: 4px;
+	color: white;
+	padding-right: 8px;
+	cursor: pointer;
+	font-size: 18px;
+}
+#event{
+	font-size: 36px;
+	color:#337ab7 ;
+}
+#clock{
+	font-size: 36px;
+	color: #337ab7;
+}
+#layers{
+	font-size: 30px;
+	font-weight: bold;
+	display: none;
+}
+#layers2{
+	display: none;
+	font-size: 30px;
+	font-weight: bold;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  margin: 1px auto;
+  height: 66px;
+  text-align: left;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: pink; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 14px;
+  color: #363636;
+  line-height: 20px;
+}
+.jeveline_clinic{
+	display: flex;
+	padding: 20px;
+	justify-content: start;
+  margin:120px auto;
+}
+.jc_image{
+	width: 88%;
+}
+.jc_info_box{
+	width: 34%;
+}
+.jc_heading{
+	font-size: 38px;
+	color: #363636;
+  font-family: system-ui;
+}
+.jc_about{
+	color: lightcoral;
+}
+.jc_para1{
+	font-size: 14px;
+	color:lightcoral ;
+}
+.jc_para2{
+	margin: 40px auto;
+	color: #363636;
+	font-size: 14px;
+  line-height: 22px;
+}
+.help_page_info{
+	background-image: url(../images/hp-background.jpg);
+	background-size: cover;
+	padding-bottom: 5rem;
+  background-repeat: no-repeat;
+}
+.hp_option_page{
+	background: white;
+	margin: 28px;
+	padding: 80px;
+	border-radius: 10px;
+}
+.hp_option{
+	display: flex;
+	justify-content: center;
+}
+.treatment_page{
+  display: block;
+  width: 24%;
+  height: 210px;
+  margin: 45px;
+}
+.hp_heading{
+	font-size: 18px;
+  font-weight: bold;
+  color: #363636;
+  margin: 20px auto;
+}
+.hp_para{
+	font-size: 14px;
+  font-family: system-ui;
+  color: #363636;
+  line-height: 20px;
+}
+.hp_info_heading{
+	text-align: center;
+	padding: 50px;
+
+}
+.hp_help_para{
+	font-size: 14px;
+  line-height: 0px;
+  color: #363636;
+}
+.hp_help_heading{
+	color: #363636;
+	font-size: 36px;
+}
+.jennaberg_info_page{
+	display: flex;
+	justify-content: end;
+	padding-top: 40px;
+}
+.jennaberg_image{
+	height: 500px;
+}
+.jennaberg_page{
+	width: 32%;
+	padding-top: 16px;
+}
+.jennaberg_heading{
+	font-size: 38px;
+  color: #363636;
+}
+.jb_para1{
+	font-size: 14px;
+	color:#337ab7;
+}
+.jb_para2{
+	line-height: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 40px;
+  color: #363636;
+}
+.jb_para3{
+	line-height: 20px;
+  letter-spacing: 0.5px;
+  font-family: system-ui;
+  font-size: 14px;
+  color: #363636;
+}
+.jb_button{
+	border: none;
+  width: 40%;
+  border-radius: 60px;
+  color: white;
+  font-weight: bold;
+  height: 56px;
+  cursor: pointer;
+  background-color: #47d3e2;
+  font-size: 16px;
+  margin-top: 66px;
+  transition: 0.4s;
+}
+.jb_button:hover{
+	background-color:lightcoral;
+	color: white;
+}
+.jb_medical_info{
+	display: flex;
+  justify-content: space-evenly;
+  background-color: #ebe9eb;
+  color: #363636;
+  margin-top:-4px;
+  padding: 88px;
+}
+.certified_num{
+	font-size: 56px;
+	font-family: monospace;
+  font-weight: bold;
+  color: #363636;
+}
+.certified_line{
+	border: 1px solid #47d3e2 ;
+	width: 40%;
+}
+.certified_first{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.certified_info{
+	text-align: center;
+}
+.certified_span{
+	font-size: 20px;
+  line-height: 36px;
+  color: #363636;
+  font-weight: bold;
+}
+.spf_page{
+	background-image: url(../images/pbf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.spf_info{
+	text-align: center;
+	padding-top: 140px;
+}
+.spf_para{
+	font-size: 16px;
+	color: #363636;
+	color: lightcoral;
+}
+.spf_heading{
+	font-size: 34px;
+	color: #363636;
+}
+.spf_checkup{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 88%;
+  margin: auto;
+  padding-top: 80px;
+}
+.allergy_page{
+	background-color: #b9f7f9;
+	width: 35%;
+	padding: 44px;
+	color: #363636;
+	text-align: center;
+}
+.eye_page{
+	width: 35%;
+	padding: 80px;
+	background-color: white;
+	text-align: center;
+	color: #363636;
+	box-shadow: 0px 2px 20px 0px #e8e1e1;
+}
+.ac_heading{
+	font-size: 24px;
+  font-weight: bold;
+  color: #363636;
+}
+.ac_num{
+	font-size: 30px;
+	color: #363636;
+}
+.ac_num_span{
+	font-size: 60px;
+	font-weight: bold;
+}
+.ac_para{
+	font-size: 15px;
+	padding: 16px;
+	font-family: -webkit-pictograph;
+}
+.ac_para_box{
+	padding: 50px;
+}
+.ac_button{
+	border: none;
+  width: 42%;
+  height: 56px;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: 0.4s;
+}
+.ac_button:hover{
+	background-color:#b9f7f9;
+	border: 2px solid #0078aa;
+}
+#ac_button_id{
+	background-color: #0078aa;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+}
+#ac_button_id:hover{
+	background-color: white;
+	border: 2px solid #0078aa;
+	color: black;
+}
+.faq_question{
+	width: 40%;
+}
+.faq_page{
+	display: flex;
+  justify-content: space-between;
+  padding: 120px;
+}
+.faq_heading{
+	font-size:44px;
+	font-family: system-ui;
+	color: #363636;
+}
+.faq_para{
+	font-size: 44px;
+  color: lightcoral;
+  font-weight: bold;
+}
+.faq_button{
+	border: none;
+  width: 40%;
+  height: 56px;
+  cursor: pointer;
+  background-color:#47d3e2;
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+  font-weight: bold;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+.faq_button:hover{
+	background-color: lightcoral;
+}
+#arrow_up{
+	float: right;
+	font-weight: bold;
+	color:#47d3e2;
+	display: none;
+}
+#arrow_down{
+	float: right;
+	font-weight: bold;
+	color:#47d3e2;
+}
+.map_info_page{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ebe9eb;
+	color: #363636;
+	margin-top: -4px;
+	padding: 90px;
+}
+.location{
+	display: flex;
+	align-items: center;
+}
+.li_heading{
+	font-size: 14px;
+  font-weight: bold;
+  color: #363636;
+}
+.li_para{
+font-size: 13px;
+color: #363636;
+padding-top: 10px;
+}
+.icon-location-pin:before {
+  content: "\e096";
+  color: #3ce2ad;
+  font-size: 30px;
+}
+.icon-clock:before{
+	content: "\e096";
+  color: #3ce2ad;
+  font-size: 30px;
+}
+.icon-envelope-letter:before {
+	content: "\e096";
+  color: #3ce2ad;
+  font-size:28px;
+}
+.icon-call-out:before{
+	content: "\e096";
+  color: #3ce2ad;
+  font-size: 26px;
+}
+.location_info{
+	padding-left: 22px;
+}
+.appointment_page{
+	display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.doctor_full_page{
+	display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-top: 80px;
+}
+.doctor_para{
+	display: flex;
+  align-items: center;
+  padding-top: 35px;
+  justify-content: center;
+}
+.input {
+    font-size: 16px;
+    font-family: monospace;
+    width: 100%;
+    outline: none;
+    padding: 4px;
+    line-height: 32px;
+    border: none;
+    font-family: -webkit-pictograph;
+    color: #363636;
+    margin: 24px 0px 18px 0px;
+    border-bottom: 1px solid gray;
+}
+.doctor_page{
+	background-image: url(../images/johndoe-background.jpg);
+	background-repeat: no-repeat;
+	width: 40%;
+	padding: 220px 20px 0px 28px;
+	margin: 12px;
+}
+.JohnDoe{
+	font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+}
+.Gardener{
+	font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding-top: 8px;
+}
+.doctor_lorem{
+	font-size: 14px;
+  font-weight: lighter;
+  color: white;
+  padding-left: 20px;
+  font-family: system-ui;
+}
+.doctor_num{
+	font-size: 32px;
+  color: white;
+  font-family: none;
+}
+.form_heading{
+	font-size: 36px;
+  font-weight: 900;
+  color: #363636;
+  margin: 0px;
+}
+.form_para{
+	font-size: 14px;
+	color:#337ab7;
+}
+.submit_option{
+	padding: 82px;
+}
+.form_submit_page{
+	width: 50%;
+}
+.doctor_page_info{
+	padding-left: 65px;
+}
+.submit_option_button{
+	border: none;
+  width: 24%;
+  height: 54px;
+  cursor: pointer;
+  background-color:#47d3e2;
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+  font-weight: bold;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+.submit_option_button:hover{
+	background-color: lightcoral;
+}
+.jeveline_footer_page{
+	display: flex;
+  justify-content: space-around;
+  background-color: #1c1c1c;
+  align-items: center;
+  padding: 40px;
+}
+.ji_heading{
+	color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+.ji_para{
+	color: #a4b0b1;
+  font-size: 17px;
+}
+.jeveline_display{
+	display: flex;
+  align-items: center;
+  line-height: 50px;
+}
+.jeveline_information{
+	width: 35%;
+	padding: 40px;
+}
+.icon-directions:before{
+	content: "\e096";
+  color: white;
+  font-size: 24px;
+}
+.icon-call-end:before{
+	content: "\e096";
+  color: white;
+  font-size: 24px;
+}
+.icon-speech:before{
+	content: "\e096";
+  color: white;
+  font-size: 24px;
+}
+.place_heading{
+	color:#a7a6a6;
+	font-size:17px;
+	padding-left: 20px;
+}
+.vertical_line{
+	border-left: 1px solid #a7a2a2;
+  height: 180px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+.professional_health_care{
+  height: 640px;
+  background-image: url(../images/jeveline-back.jpg);
+}
+.header_href{
+	display: none;
+}
+#layers{
+	display: block;
+}
+.pfhc_page{
+	padding: 70px;
+}
+.pfhc_heading{
+	font-size: 40px;
+	color: #363636;
+	line-height: 52px;
+	margin: 0px;
+}
+.pfhc_para{
+	font-size: 14px;
+	font-family: inherit;
+}
+.pfhc_image{
+	margin: 40px auto;
+}
+.pfhc_box{
+	display: block;
+  width: 92%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -120px;
+}
+.pfhc_box1{
+	background-color: #b9f7f9;
+	width: 80%;
+	margin: auto;
+	padding: 50px;
+	border-radius: 16px;
+}
+.pfhc_box2{
+	width: 80%;
+	height: 250px;
+	padding: 50px;
+	margin: auto;
+	background-color: #d4fdfe;
+	border-radius: 16px;
+}
+.pfhc_box3{
+	background-color: #b9f7f9;
+	width: 80%;
+	margin: auto;
+	padding: 50px;
+	border-radius: 16px;
+}
+.box1_num{
+	font-size: 32px;
+  color: #337ab7;
+}
+.box1_heading{
+	font-weight: bold;
+  font-size: 20px;
+  color: #363636;
+  font-family: monospace;
+  margin: 22px auto;
+}
+.box2_heading{
+	font-weight: bold;
+  font-size: 20px;
+  color: #363636;
+  font-family: monospace;
+  margin: 22px auto;
+}
+.box3_heading{
+	font-weight: bold;
+  font-size:20px;
+  color: #363636;
+  font-family: monospace;
+  margin: 22px auto;
+}
+.box1_button{
+	width: 20%;
+}
+.box2_button{
+	width: 20%;
+}
+.box3_button{
+	width: 20%;
+}
+.jeveline_clinic{
+	display: block;
+	padding: 20px;
+  margin:50px auto;
+}
+.jc_image{
+	width: 100%;
+}
+.jc_info_box{
+	width: 72%;
+	padding-left: 120px;
+}
+.hp_option_page{
+	background: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.treatment_page{
+  display: block;
+  width: 24%;
+  height: 300px;
+  margin: 45px;
+}
+.jennaberg_info_page{
+	display: block;
+	padding-top: 40px;
+}
+.jennaberg_image{
+	height: 564px;
+}
+.jennaberg_page{
+	width: 62%;
+	margin: auto;
+	padding-top: 16px;
+}
+.jb_button{
+  width: 40%;
+}
+.spf_page{
+	background-image: url(../images/pbf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.spf_info{
+	text-align: center;
+	padding-top: 70px;
+}
+.spf_checkup{
+	display: block;
+	padding-top: 80px;
+	width: 100%;
+  margin: auto;
+}
+.allergy_page{
+	width: 44%;
+	padding: 44px;
+	margin: 20px auto;
+}
+.eye_page{
+	margin: auto;
+}
+.ac_para_box{
+	padding: 50px;
+}
+.faq_question{
+	width: 100%;
+	padding-top: 50px;
+}
+.faq_page{
+	display: block;
+  padding: 80px;
+}
+.faq_button{
+	width: 24%;
+}
+.map_info_page{
+	display: block;
+	margin-top: -4px;
+	padding: 40px;
+	padding-left: 150px;
+}
+.map_info{
+	padding-bottom: 40px;
+}
+.appointment_page{
+	display: block;
+  padding-top: 50px;
+}
+.doctor_full_page{
+	display: flex;
+  width: 100%;
+  padding-top: 10px;
+}
+.input{
+  width: 100%;
+}
+.doctor_page{
+	background-image: url(../images/johndoe-background.jpg);
+	background-repeat: no-repeat;
+	width: 40%;
+	padding: 220px 20px 100px 28px;
+	margin: 12px;
+}
+.submit_option{
+	padding: 82px;
+}
+.form_submit_page{
+	width: 100%;
+}
+.doctor_page_info{
+	padding-left: 65px;
+}
+.jeveline_footer_page{
+	display: block;
+  padding: 40px;
+}
+.jeveline_information{
+	width: 80%;
+	padding: 40px;
+}
+.vertical_line{
+	display: none;
+}
+}
+
+
+
+
+@media screen and (max-width: 360px){
+
+.professional_health_care{
+  height: 640px;
+  background-image: url(../images/small-javeline.jpg);
+}
+.pfhc_page{
+	padding: 24px;
+	padding-top: 70px;
+	width: 70%;
+}
+.jennaberg_page{
+	width: 90%;
+}
+.jennaberg_image{
+	height: 265px;
+}
+.jb_button{
+	width: 50%;
+	margin-top: 20px;
+}
+.jb_medical_info{
+	display: block;
+}
+.certified_line{
+	width: 8%;
+}
+.allergy_page{
+	width: 64%;
+	padding: 44px;
+}
+.spf_checkup{
+	padding-top: 30px;
+}
+.ac_para_box{
+	padding: 0px;
+}
+.eye_page{
+	width: 46%;
+}
+#ac_button_id{
+	width: 70%;
+}
+.ac_button{
+	height: 50px;
+	width: 50%;
+}
+.header_display{
+	display: flex;
+  padding: 16px 30px;
+  margin: 0px auto;
+  max-width: 300px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.pfhc_box1{
+	width: 48%;
+}
+.box1_button{
+	width: 66%;
+}
+.box3_button{
+	width: 66%;
+}
+.pfhc_box2{
+	width: 48%;
+	height: 320px;
+}
+.pfhc_box3{
+	width: 48%;
+}
+.box1_num{
+	font-size: 22px;
+}
+.box1_heading{
+	font-size: 18px;
+}
+.box2_heading{
+	font-size: 18px;
+}
+.box2_button{
+	margin-top: 40px;
+	width: 66%;
+}
+.jc_info_box{
+	padding-left: 20px;
+	width: 90%;
+}
+.jc_heading{
+	font-size: 28px;
+}
+.accordion{
+	height: 50px;
+}
+.hp_help_heading{
+	font-size: 28px;
+}
+.hp_help_para{
+	font-size: 12px;
+}
+.hp_option{
+	display: block;
+}
+.hp_option_page{
+	margin: 40px;
+}
+.hp_info_heading{
+	padding-bottom: 4px;
+}
+.treatment_page{
+	width: 76%;
+	margin: 30px;
+}
+.jennaberg_heading{
+	font-size: 28px;
+}
+.jennaberg_page{
+	width: 82%;
+}
+.jb_button{
+	width: 56%;
+}
+.spf_heading{
+	font-size: 30px;
+}
+.spf_para{
+	font-size: 14px;
+}
+.faq_page{
+	padding: 30px;
+	padding-top: 60px;
+}
+.faq_heading{
+	font-size: 36px;
+}
+.faq_para{
+	font-size: 36px;
+}
+.faq_button{
+	width: 40%;
+	height: 50px;
+}
+.map_info_page{
+	padding: 20px;
+	padding-top: 40px;
+}
+#kateblossome_page{
+	display: none;
+}
+.doctor_full_page{
+	display: block;
+}
+.doctor_page{
+	width: 100%;
+	margin: auto;
+}
+.submit_option{
+	padding: 50px;
+}
+.form_heading{
+	font-size: 22px;
+}
+.form_para{
+	font-size: 12px;
+}
+.submit_option_button{
+	width: 48%;
+}
+.jeveline_footer_page{
+	padding: 10px;
+}
+.jeveline_information{
+	padding: 24px;
+}
+.place_heading{
+	font-size: 16px;
+}
+.help_page_info{
+	padding-bottom: 1.5rem;
+}
+.certified_first{
+	justify-content: space-between;
+}
+.jb_medical_info{
+	padding: 20px;
+}
+.certified_info{
+	margin: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
