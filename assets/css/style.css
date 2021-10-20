@@ -58,7 +58,7 @@ body{
 	padding: 20px;
 	position: fixed;
 	margin-left: 24%;
-  background: #232323;
+  background: #0078aac9;
   border-radius: 10px;
   width: 73%;
   text-align: center;
@@ -146,6 +146,9 @@ body{
 }
 .contacts:hover{
 	color: #337ab7;
+}
+.hrer_line1{
+	width: 74%;
 }
 .pfhc_page{
 	padding: 88px;
