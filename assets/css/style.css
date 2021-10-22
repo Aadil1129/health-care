@@ -1070,6 +1070,9 @@ padding-top: 10px;
 
 @media screen and (max-width: 480px){
 
+.doctor_para{
+	width: 60%;
+}
 .professional_health_care{
   height: 640px;
   background-image: url(../images/small-javeline.jpg);
