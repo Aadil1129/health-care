@@ -58,7 +58,7 @@ body{
 	padding: 20px;
 	position: fixed;
 	margin-left: 24%;
-  background: #0078aac9;
+  background: lightcoral;
   border-radius: 10px;
   width: 73%;
   text-align: center;
@@ -91,6 +91,12 @@ body{
 }
 #href_color{
 	color: white;
+	margin: 4px;
+	background: #0bbfda;
+	border-radius: 2px;
+}
+#href_color:hover{
+	background: tomato;
 }
 .home:hover{
 	color: #337ab7;
