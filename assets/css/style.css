@@ -94,9 +94,10 @@ body{
 	margin: 4px;
 	background: #0bbfda;
 	border-radius: 2px;
+	opacity: 0.8;
 }
 #href_color:hover{
-	background: black;
+	opacity: 1;
 }
 .home:hover{
 	color: #337ab7;
